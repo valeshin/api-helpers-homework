@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Bookingdates{
-	private String checkin;
-	private String checkout;
+    private String checkin;
+    private String checkout;
 }

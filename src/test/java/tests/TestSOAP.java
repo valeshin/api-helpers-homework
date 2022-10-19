@@ -8,7 +8,6 @@ import features.PojoXML;
 import helpers.soap.GetAllCountries;
 import org.junit.Test;
 import pojo.xml.org.oorsprong.websamples.*;
-
 import java.util.List;
 import java.util.Random;
 

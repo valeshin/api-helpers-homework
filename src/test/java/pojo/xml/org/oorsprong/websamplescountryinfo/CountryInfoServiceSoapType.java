@@ -1,4 +1,4 @@
-package pojo.xml.org.oorsprong.websamples_countryinfo;
+package pojo.xml.org.oorsprong.websamplescountryinfo;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;

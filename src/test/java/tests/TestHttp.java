@@ -12,7 +12,6 @@ import org.junit.Test;
 import org.springframework.http.HttpStatus;
 import pojo.http.Booking;
 import pojo.http.BookingFactory;
-
 import java.util.Random;
 
 public class TestHttp extends JUnit4CitrusTestRunner {

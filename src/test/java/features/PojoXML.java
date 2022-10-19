@@ -28,7 +28,7 @@ public class PojoXML<T> {
                 private StringBuilder string = new StringBuilder();
                 @Override
                 public void write(int b) throws IOException {
-                    this.string.append((char) b );
+                    this.string.append((char) b);
                 }
 
                 public String toString(){

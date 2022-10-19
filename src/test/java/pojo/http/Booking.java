@@ -12,10 +12,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @JsonSerialize
 public class Booking {
-	private String firstname;
-	private String additionalneeds;
-	private Bookingdates bookingdates;
-	private int totalprice;
-	private boolean depositpaid;
-	private String lastname;
+    private String firstname;
+    private String additionalneeds;
+    private Bookingdates bookingdates;
+    private int totalprice;
+    private boolean depositpaid;
+    private String lastname;
 }

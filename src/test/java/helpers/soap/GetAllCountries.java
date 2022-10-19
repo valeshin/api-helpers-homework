@@ -1,15 +1,11 @@
 package helpers.soap;
 
-import com.consol.citrus.annotations.CitrusResource;
 import com.consol.citrus.context.TestContext;
 import features.PojoXML;
 import helpers.Behavior;
 import pojo.xml.org.oorsprong.websamples.ArrayOftCountryCodeAndName;
 import pojo.xml.org.oorsprong.websamples.ListOfCountryNamesByName;
 import pojo.xml.org.oorsprong.websamples.ListOfCountryNamesByNameResponse;
-import pojo.xml.org.oorsprong.websamples.TCountryCodeAndName;
-
-import java.util.List;
 
 public class GetAllCountries extends Behavior {
 
