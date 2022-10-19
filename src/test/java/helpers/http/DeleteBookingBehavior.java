@@ -1,6 +1,7 @@
-package helpers;
+package helpers.http;
 
 import com.consol.citrus.context.TestContext;
+import helpers.Behavior;
 
 public class DeleteBookingBehavior extends Behavior {
 

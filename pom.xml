@@ -169,7 +169,8 @@
                         <sourceRoot>${basedir}/src/test/java/pojo/xml</sourceRoot>
                         <wsdlOptions>
                             <wsdlOption>
-                                <wsdl>https://www.dataaccess.com/webservicesserver/numberconversion.wso?WSDL</wsdl>
+                                <wsdl>src/test/resources/wsdl/countryinfoservice.wsdl</wsdl>
+                                <wsdlLocation>classpath:wsdl/countryinfoservice.wsdl</wsdlLocation>
                             </wsdlOption>
                         </wsdlOptions>
                     </configuration>
