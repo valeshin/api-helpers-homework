@@ -32,7 +32,7 @@ public class GetAllCountries extends Behavior {
         soap(soapActionBuilder -> soapActionBuilder
                 .client("soapClient")
                 .receive()
-                .name("listOfCountriesMessage"));
+                .messageName("listOfCountriesMessage"));
         String response = context
                 .getMessageStore()
                 .getMessage("listOfCountriesMessage")

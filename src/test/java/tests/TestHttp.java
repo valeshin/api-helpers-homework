@@ -33,6 +33,7 @@ public class TestHttp extends JUnit4CitrusTestRunner {
                 .send()
                 .put("/booking/${bookingid}")
                 .accept("application/json")
+                .messageType(MessageType.JSON)
                 .header("Cookie", "token=${token}")
                 .payload(booking, "objectMapper"));
 

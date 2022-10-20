@@ -1,6 +1,7 @@
 package helpers.http;
 
 import com.consol.citrus.context.TestContext;
+import com.consol.citrus.message.MessageType;
 import helpers.Behavior;
 import pojo.http.Booking;
 
@@ -21,6 +22,7 @@ public class CreateBookingBehavior extends Behavior {
                 .send()
                 .post("/booking")
                 .accept("application/json")
+                .messageType(MessageType.JSON)
                 .payload(booking, "objectMapper"));
 
         http(httpActionBuilder -> httpActionBuilder
